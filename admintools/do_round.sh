@@ -4,6 +4,8 @@
 #
 set -e
 
+rm -rf output
+
 username="$1"
 password="$2"
 round_number="$3"
