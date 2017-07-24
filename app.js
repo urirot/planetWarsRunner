@@ -3,6 +3,8 @@ const app = express();
 const path = require('path');
 const bodyParser = require('body-parser');
 const exec = require('exec');
+const http = require('http');
+const server = http.createServer(app);
 
 app.use(bodyParser());
 app.set('views', path.join(__dirname, '/views'));
@@ -26,6 +28,6 @@ app.post('/', (req, res) => {
     console.log(`${username} ${pass} ${rounds}`);    
 });
 
-app.listen(8000, () => {
-    console.log('Running on port: ' + 8000);
+server.listen(80, "0.0.0.0", () => {
+    console.log(`Running on ${server.address().adress} port:${server.address().port}`);
 });
