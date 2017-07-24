@@ -1,0 +1,17 @@
+--- do_round.sh ---
+
+This script is the most important script. It is used to run a full round of a specific tournament.
+The script accepts the round number as the first argument, downloads all the code, runs all the groups against one another and upload the code and the results afterwards to the site
+
+The script should be run only after all groups are configured and has the code uploaded, if they don't, they will fail against all other groups
+
+The script uses a config file in round_lib/config.py that defines some variables on how to run the script
+
+--- map_generator.py ---
+
+This script is used to create random maps. Just run it and you'll get a map as the output
+
+--- build_starter_kit.sh ---
+
+This script is used to build the starter kit for the students. It creates a tar.gz file that holds all that is needed to start running the java simulator on their computer
+
