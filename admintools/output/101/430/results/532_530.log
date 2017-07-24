@@ -49,7 +49,5 @@ P 19.4667873213 20.0561682576 0 35 5
 P 3.76039427948 3.26130658173 0 35 5
 go
 
-player2 > engine: 2 0 50
-player2 > engine: go
 Turns: 1
-Winner: 2
+Draw
