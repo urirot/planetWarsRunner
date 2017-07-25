@@ -5,8 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3",
     "exec": "^0.2.1",
+    "express": "^4.15.3",
     "jade": "^1.11.0"
   },
   "devDependencies": {},
