@@ -1,5 +1,5 @@
 # The host to run against
-HOST = "http://http://34.212.203.64/"
+HOST = "http://http://34.212.203.64"
 #HOST = "http://fgpoint.dev:3000/"
 
 # The output directory to use, sometimes this is useful to have a look in if something goes wrong
